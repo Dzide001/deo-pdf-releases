@@ -59,9 +59,9 @@ Deo PDF collects nothing, sends nothing, and has no way to do either. No
 accounts, no analytics, no advertising, no crash reporting, no tracking. The
 only permission it requests is the camera, and only for scanning paper.
 
-The full policy will be published here with the first release. It is written
-and verified; it is held back only until a contact address is settled, since a
-privacy policy without one is not much use to anybody.
+The full policy is in [PRIVACY.md](PRIVACY.md).
+
+Questions about it go to **deodevs001@gmail.com**.
 
 ## Open source components
 
