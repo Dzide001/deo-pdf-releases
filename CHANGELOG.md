@@ -1,6 +1,15 @@
 # Changelog
 
-## 1.0.0 — 27 October 2026
+## 1.0.0 — withdrawn
+
+Published on 27 October 2026 and withdrawn the same day, before anyone had
+downloaded it. A code review found faults that should not ship, the clearest
+being that redaction could leave text recoverable in a document's internal
+structure after the visible text had gone — and redaction's whole promise is
+that the content is removed rather than covered.
+
+The notes below describe what it contained and stand as the plan for the next
+release.
 
 The first release. Deo PDF reads and edits PDFs on Android, entirely on your
 device: it has no internet permission, so nothing it does can leave the phone

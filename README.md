@@ -2,10 +2,17 @@
 
 A PDF reader and editor for Android. Everything it does happens on your device.
 
+**There is no download yet.** 1.0.0 was published on 27 October 2026 and
+withdrawn the same day, before anyone had downloaded it, after a code review
+found faults worth fixing first — including one in redaction, which is a
+feature whose whole point is that it removes content rather than hiding it.
+
+Nothing is lost by waiting. The next release will appear here.
+
 ## Download
 
-The latest release is on the [Releases page](../../releases). Four files are
-attached to each one:
+The latest release will be listed on the [Releases page](../../releases). Four
+files are attached to each one:
 
 | File | Size | For |
 | --- | --- | --- |
