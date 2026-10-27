@@ -2,17 +2,27 @@
 
 A PDF reader and editor for Android. Everything it does happens on your device.
 
-**There is no public release yet.** This page is where the download will appear
-when there is one. Watch the repository to be told when that happens — the app
-itself cannot tell you, for the reason given under *Updates* below.
-
-What the first release will contain, and what is known to be limited about it,
-is written up in [CHANGELOG.md](CHANGELOG.md).
-
 ## Download
 
-Releases are listed on the [Releases page](../../releases). Each one has an
-`app-release.apk` attached, along with its SHA-256 checksum.
+The latest release is on the [Releases page](../../releases). Four files are
+attached to each one:
+
+| File | Size | For |
+| --- | --- | --- |
+| `app-universal-release.apk` | 58 MB | **anyone — take this one if unsure** |
+| `app-arm64-v8a-release.apk` | 25 MB | every current phone and tablet |
+| `app-armeabi-v7a-release.apk` | 21 MB | older 32-bit devices |
+| `app-x86_64-release.apk` | 25 MB | Chromebooks and emulators |
+
+The universal file works on every device and is more than twice the size
+because it carries all four architectures. The smaller ones each carry one. If
+you do not know which your device is, take the universal one — a wrong choice
+is an install that fails without explaining why.
+
+`SHA256SUMS.txt` is attached to every release as well.
+
+What each release contains, and what is known to be limited about it, is in
+[CHANGELOG.md](CHANGELOG.md).
 
 ## Check what you downloaded
 

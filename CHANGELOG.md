@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.0 — not yet released
+## 1.0.0 — 27 October 2026
 
 The first release. Deo PDF reads and edits PDFs on Android, entirely on your
 device: it has no internet permission, so nothing it does can leave the phone
