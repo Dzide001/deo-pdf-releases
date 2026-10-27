@@ -6,6 +6,9 @@ A PDF reader and editor for Android. Everything it does happens on your device.
 when there is one. Watch the repository to be told when that happens — the app
 itself cannot tell you, for the reason given under *Updates* below.
 
+What the first release will contain, and what is known to be limited about it,
+is written up in [CHANGELOG.md](CHANGELOG.md).
+
 ## Download
 
 Releases are listed on the [Releases page](../../releases). Each one has an
