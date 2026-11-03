@@ -1,5 +1,42 @@
 # Changelog
 
+## 1.0.3 — 29 October 2026
+
+The first release you can download. It has everything listed under 1.0.0
+below, with the faults that withdrew 1.0.0 fixed. Versions 1.0.1 and 1.0.2
+were built and tested but never released; their changes are all in 1.0.3.
+
+### Fixed since 1.0.0
+
+- **Redaction removes content.** In 1.0.0 it could hide text and drawings
+  while leaving them recoverable from inside the file.
+- **Redaction refuses what it cannot remove.** Some PDFs draw lettering or
+  artwork as a clipping shape, and that shape's outline could be recovered
+  after redaction. When a mark covers one, 1.0.3 refuses, saves nothing, and
+  says why. Your edits and Undo history are kept.
+- **Read aloud only uses a voice that works offline.** It never falls back to
+  a voice that sends your document's words to a server.
+- **Deleting a document's data deletes all of it.** That includes the
+  annotated copy, undo history, recognised text, bookmarks and cover.
+- **Printing a few pages never prints the whole document**, even if the
+  pages cannot be separated cleanly.
+- **Shared copies stay fixed.** A file you share can no longer change into
+  later content after you have shared it.
+- **Saving is safe if the app stops partway.** That covers ordinary saves and
+  password changes.
+- **Damaged or hostile documents are refused** rather than being allowed to
+  use up the device's memory.
+- **Links open only safe kinds of address**, including links in documents
+  you import.
+
+### Known limits in 1.0.3
+
+- **Many ordinary PDFs cannot be redacted.** 1.0.3 refuses any page drawn
+  inside a rectangular clip. That is every page of a PDF exported from
+  Microsoft Word, and most table cells. Nothing is saved when it refuses.
+- Always check the result of a redaction before sharing the document.
+- The limits listed under 1.0.0 still apply.
+
 ## 1.0.0 — withdrawn
 
 Published on 27 October 2026 and withdrawn the same day, before anyone had
