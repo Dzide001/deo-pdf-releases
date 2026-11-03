@@ -1,5 +1,41 @@
 # Changelog
 
+## 1.0.4 — 3 November 2026
+
+### Drawing
+- **Undo and Redo work while drawing**, across pen strokes, shapes and erasing, from the Draw bar itself.
+- **Zoom out to see a whole page**: pinch out and the page shrinks to fit the screen instead of stopping at full width.
+- **Move and resize shapes.** Choose **Select**, then tap or press and hold a box, oval, line or arrow to pick it up. Drag it to move it, drag a corner handle to resize it, and tap anywhere else to put it down. One Undo takes the whole change back.
+- **Filled boxes and ovals.** Turn on **Fill** to draw solid shapes in the chosen colour; it also fills or empties a shape you have picked up.
+- Pen colour and thickness are now shown on phones too.
+
+### Privacy and safety
+- **Extracted and split pages carry nothing of the pages left out**: no form-field values, bookmarks, links, document attachments or hidden template pages from the rest of the document. Page labels (such as i, ii, 1, 2) stay as they were.
+- **Redaction covers images and drawings nested deep inside a page**, and refuses rather than guesses when it cannot tell where they sit.
+- Very large or deliberately oversized documents are refused instead of running out of memory during redaction, text editing and Word export.
+- **Export to Word says what it could not include.** If text or pictures on some pages cannot be read, the export still saves and then lists those pages, instead of looking complete.
+
+### Editing
+- Moving, deleting and inserting pages now moves each page's notes and marks with it, and keeps you on the page you were reading.
+- An edit can no longer leave a document cut short if the app is closed partway through saving.
+- Compare works when the open document is password-protected, and says so when the other one is.
+- Photos placed on a page or scanned keep the right way up, including mirrored front-camera pictures.
+
+### Accessibility
+- The scanner's shutter button is announced by screen readers.
+
+### Every screen size
+- On phones the Draw tools wrap onto a second line instead of running off the edge, so "Line" no longer splits in two and Select and Arrow are always visible.
+- Fixes for text that was cut off or broken mid-word in landscape, on small tablets, with larger text, and in French and Spanish: the reader title, the selection bar, Organise, Combine, stamp positions and Read aloud.
+
+### Redaction and reliability
+- **Redaction works again on ordinary documents.** 1.0.3 refused to redact any page wrapped in a rectangular clip — which includes every page of PDFs exported from Microsoft Word, and most table cells. Those documents can now be redacted.
+- Redaction is still refused when a clipping *shape* — such as outlined lettering or a signature — lies under a mark, since its outline could otherwise be recovered from the file. Nothing is saved when that happens.
+- Redaction is also refused, with nothing saved, when another page of the document cannot be read: going ahead could leave that page without its fonts or images.
+- The library no longer risks crashing on launch if a document's stored ownership record becomes unreadable; the document shows without a cover, and Delete still works and says what it could not read.
+
+Upgrade over 1.0.3 is supported; your documents and annotations are kept. Review the result of any redaction before sharing.
+
 ## 1.0.3 — 29 October 2026
 
 The first release you can download. It has everything listed under 1.0.0

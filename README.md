@@ -2,7 +2,7 @@
 
 A PDF reader and editor for Android. Everything it does happens on your device.
 
-**The current version is 1.0.3**, published on 29 October 2026. Get it from
+**The current version is 1.0.4**, published on 3 November 2026. Get it from
 the [Releases page](../../releases/latest).
 
 ## Download
@@ -11,7 +11,7 @@ Each release has two files attached:
 
 | File | Size | What it is |
 | --- | --- | --- |
-| `Deo-PDF-1.0.3.apk` | 68 MB | the app, for every Android phone and tablet |
+| `Deo-PDF-1.0.4.apk` | 68 MB | the app, for every Android phone and tablet |
 | `SHA256SUMS` | under 1 KB | the checksum to check the app against |
 
 There is one APK, and it works on every device, so there is nothing to choose.
@@ -26,16 +26,16 @@ file for you. Compare the checksum before installing:
 
 ```bash
 # macOS / Linux
-shasum -a 256 Deo-PDF-1.0.3.apk
+shasum -a 256 Deo-PDF-1.0.4.apk
 
 # Windows (PowerShell)
-Get-FileHash Deo-PDF-1.0.3.apk -Algorithm SHA256
+Get-FileHash Deo-PDF-1.0.4.apk -Algorithm SHA256
 ```
 
-For 1.0.3 it should print:
+For 1.0.4 it should print:
 
 ```
-2483a7499967e5e1aa4ef914302693af503c26d6581c6ac3a2f4cfacf739ada7
+2ef6a7294f2b0843dcd7533e6ad532e8984a2cbea67fdb306807aef0e80ffa36
 ```
 
 That is also the line in the release's `SHA256SUMS` file. If it does not match,
